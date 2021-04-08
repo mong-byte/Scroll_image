@@ -1,0 +1,21 @@
+.img_controls {
+  display: flex;
+  margin-left: 20px;
+}
+
+.img_controls-control {
+  margin-right: 50px;
+}
+
+.img_controls-control img {
+  height: 80px;
+  width: 80px;
+}
+
+.img_controls-control img.active {
+  transform: scale(1.5);
+}
+
+.controls_range {
+  margin-top: 200px;
+}
